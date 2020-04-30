@@ -1,0 +1,109 @@
+.header {
+  background: #4E4E4E;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px; }
+  .header-logo {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff; }
+    .header-logo-mobile {
+      display: inline; }
+    .header-logo-desktop {
+      display: none; }
+  .header .hamburger-mobile {
+    width: 30px;
+    height: 25px;
+    background: url("../../img/hamburger.svg"); }
+  .header-nav {
+    display: none;
+    font-size: 1rem;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: bold; }
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background: #4E4E4E;
+  margin-top: 30px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif; }
+  .footer-logo {
+    display: flex; }
+    .footer-logo img {
+      width: 50px;
+      height: 50px; }
+    .footer-logo .divider {
+      height: 60px;
+      width: 2px;
+      background: #fff;
+      margin: 0 10px; }
+    .footer-logo .logo-typed {
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      font-weight: bold; }
+  .footer-authors {
+    font-size: 0.8rem; }
+
+@media (min-width: 570px) {
+  .header .hamburger-mobile {
+    display: none; }
+  .header-nav {
+    display: flex;
+    flex-direction: row;
+    color: #fff; }
+  .header-nav a {
+    padding-left: 20px;
+    transition: transform 0.3s; }
+    .header-nav a:link {
+      color: #fff;
+      text-decoration: none; }
+    .header-nav a:visited {
+      color: #fff;
+      text-decoration: none; } }
+@media (min-width: 440px) {
+  .header-logo-mobile {
+    display: none; }
+  .header-logo-desktop {
+    display: inline; } }
+@media (min-width: 530px) {
+  .footer {
+    margin-top: 0;
+    height: 100px; } }
+@media screen and (max-width: 570px) {
+  .header-nav {
+    background: #ffffffe8;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: calc( 100vh / 2 - 100px);
+    left: calc( 100vw / 2 - 100px );
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #c4c4c4;
+    border-radius: 3px;
+    overflow: hidden;
+    flex-direction: column; }
+    .header-nav a {
+      padding: 10px 20px;
+      transition: transform 0.3s;
+      display: block;
+      transform: translateY(-300px); }
+      .header-nav a:link {
+        color: #000;
+        text-decoration: none; }
+      .header-nav a:visited {
+        color: #000;
+        text-decoration: none; } }
+
+/*# sourceMappingURL=header-footer.css.map */

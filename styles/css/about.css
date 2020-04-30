@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background: #F1F1F1; }
+
+.content {
+  min-height: calc(100vh - 50px - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px; }
+  .content .logo {
+    display: none; }
+  .content .description {
+    font-size: 1rem;
+    font-family: "Segoe UI", sans-serif;
+    max-width: 600px; }
+    .content .description h1 {
+      font-weight: normal;
+      margin-bottom: 30px;
+      margin-top: 0; }
+
+@media (min-width: 800px) {
+  .content .logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .content .logo img {
+      width: 300px;
+      height: 300px; } }
+@media (min-width: 600px) {
+  .content {
+    padding: 0 50px; } }
+
+/*# sourceMappingURL=about.css.map */
