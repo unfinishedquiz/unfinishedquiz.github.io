@@ -166,22 +166,12 @@ function load_content(data){
     $('.q-content').html(data.question_en)
 
     if(data.image){
-        $('.q-graphic').html('<img src=' + parent_url_res + q_no + '.png>')
+        $('.q-graphic').html('<img src=' + parent_url_res +'empyt-img.png>')
         $('.q-img-utilize').css('opacity', '1')
     } else {
         $('.q-graphic').html('<img src="img/empyt-img.png">')
         $('.q-img-utilize').css('opacity', '0')
     }
-
-
-    /* anime({
-        targets: scrl_amount,
-        val: $('#answer').offset().top,
-        update: () =>  window.scrollTo(0, scrl_amount.val),
-        easing: 'linear',
-        duration: 1500,
-        delay: 1000
-    }) */
     
     $('#answer').focus()
     $('#answer').val("")
