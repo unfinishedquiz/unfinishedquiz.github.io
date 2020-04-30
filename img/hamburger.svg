@@ -1,0 +1,7 @@
+<svg id="hamburger" xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 25">
+  <g id="Component_1" data-name="Component 1">
+    <rect id="Rectangle_18" data-name="Rectangle 18" width="30" height="3" fill="#fff"/>
+    <rect id="Rectangle_19" data-name="Rectangle 19" width="30" height="3" transform="translate(0 11)" fill="#fff"/>
+    <rect id="Rectangle_20" data-name="Rectangle 20" width="30" height="3" transform="translate(0 22)" fill="#fff"/>
+  </g>
+</svg>
