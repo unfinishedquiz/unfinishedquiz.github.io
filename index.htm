@@ -1,0 +1,81 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">      
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script type="text/javascript" src="scripts/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="scripts/anime.min.js"></script>
+        <script type="text/javascript" src="scripts/loading.js"></script>
+        <script type="text/javascript" src="scripts/mob-menu.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+        <link rel="stylesheet" href="styles/css/header-footer.css">
+        <link rel="stylesheet" href="styles/css/index.css">
+        <link rel="stylesheet" href="styles/css/itemlab.css">
+        <link rel="stylesheet" href="styles/css/loading.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-logo">
+                <span class="header-logo-mobile">UQ</span>
+                <span class="header-logo-desktop">UnfinishedQuiz</span>
+            </div>
+            <div class="header-nav">
+                <a href="#" id="menu-questions">Questions</a>
+                <a href="#" id="menu-leaderboard">Leaderboard</a>
+                <a href="about.htm" id="menu-about">About</a>
+                <a href="#" id="menu-language" onclick="changeLanguage('')">Language</a>
+            </div>
+            <div class="hamburger-mobile" onclick="mobilemenu()"></div>
+        </div>
+        <div class="q-area">
+            <div class="q-card">
+                <div class="q-header">
+                    <div class="q-level">Q.1</div>
+                    <button onclick="giveup()">I give up</button>
+                </div>
+                <div class="q-content">
+                </div>
+                <div class="q-img-utilize">
+                    utilize the graphic below to answer.
+                </div>
+                <div class="q-graphic">
+                    <img src="img/empyt-img.png">
+                </div>
+                <div class="q-answer-wrapper">
+                    <div class="q-answer">
+                        <input type="text" name="answer" placeholder="Your answer" id="answer">
+                        <div class="submit-btn" onclick="next()">&gt;</div>
+                    </div>
+                </div>
+                <div class="q-difficulty">Difficulty : Easy</div>
+                <div class="q-difficulty-bar"></div>
+                <div id="result"></div>
+            </div>
+            <div class="loading">
+                <div class="beam"></div>
+                <div class="beam-head">
+                    <div class="eye"></div>
+                </div>
+                <div class="quizmark">?</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-logo">
+                <img src="Logo/Logo.1-BlackTrans.png">
+                <div class="divider"></div>
+                <div class="logo-typed">
+                    Unfinished<br>Quiz
+                </div>
+            </div>
+
+            <div class="footer-authors">
+                <b>Project developed by,</b><br/><br/>
+                Viduranga Landers <br/>
+                Adeepa Gunathilake <br/>
+                Nimesh Chandula
+            </div>
+        </div>
+    </body>
+</html>
