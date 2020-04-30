@@ -3,8 +3,8 @@ let previous_answer = ''
 let language = 'en'
 let scrl_amount = {val: 0}
 
-let parent_url_quiz = "http://localhost/UnfinishedQuiz/qz/"
-let parent_url_res = "http://localhost/UnfinishedQuiz/res/"
+let parent_url_quiz = "https://unfinishedquiz.000webhostapp.com/qz/"
+let parent_url_res = "https://unfinishedquiz.000webhostapp.com/res/"
 
 $(document).ready(() => {
 
