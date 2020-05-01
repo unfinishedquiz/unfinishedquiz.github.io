@@ -143,5 +143,8 @@ body {
 @media(min-width: 930px) {
   .q-card {
     min-width: 900px; } }
+@media(max-width: 530px) {
+  .q-area {
+    align-items: flex-start; } }
 
 /*# sourceMappingURL=index.css.map */
