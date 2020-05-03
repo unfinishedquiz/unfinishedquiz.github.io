@@ -29,7 +29,7 @@ $(document).ready(() => {
         })
     })
 
-    if(!loadProgress()) $.post(parent_url_quiz, {}, (data) => load_content(data));
+    $.post(parent_url_quiz, {}, (data) => load_content(data));
 
     $('#answer').keydown((e)=> {
         if (e.keyCode == 13) next();
