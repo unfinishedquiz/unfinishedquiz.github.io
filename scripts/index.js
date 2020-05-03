@@ -1,5 +1,3 @@
-'use strict';
-
 let q_no = 1
 let previous_answer = ''
 let language = 'en'
