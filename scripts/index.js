@@ -176,7 +176,7 @@ function load_content(data){
 
     anime({
         targets: scrl_amount,
-        val: $('.q-content').offset().top,
+        val: $('.q-card').offset().top - 20,
         update: () =>  window.scrollTo(0, scrl_amount.val),
         easing: 'linear',
         duration: 1500,
