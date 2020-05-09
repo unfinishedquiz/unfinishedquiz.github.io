@@ -1,10 +1,18 @@
 <!Doctype html>
 <html>
     <head>
-        
+        <meta charset="utf-8">      
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <script type="text/javascript" src="scripts/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="scripts/anime.min.js"></script>
+        <script type="text/javascript" src="scripts/loading.js"></script>
+        <script type="text/javascript" src="scripts/mob-menu.js"></script>
+
         <link rel="stylesheet" href="styles/css/header-footer.css">
+        <link rel="stylesheet" href="styles/css/index.css">
+        <link rel="stylesheet" href="styles/css/loading.css">
+
         <link rel="stylesheet" href="styles/css/about.css">
     </head>
     <body>
@@ -14,10 +22,10 @@
                 <span class="header-logo-desktop">UnfinishedQuiz</span>
             </div>
             <div class="header-nav">
-                <a href="index.htm">Questions</a>
-                <a href="#">Leaderboard</a>
-                <a href="#">About</a>
-                <a href="#">Language</a>
+                <a href="index.htm" id="menu-questions">Questions</a>
+                <a href="#" id="menu-leaderboard">Leaderboard</a>
+                <a href="#" id="menu-about">About</a>
+                <a href="#" id="menu-language" onclick="toggleLanguage()">Language</a>
             </div>
             <div class="hamburger-mobile"></div>
         </div>
@@ -27,16 +35,17 @@
                 <h1>About UnfinishedQuiz</h1>
                 <p>
                     UnfinishedQuiz is a challenging game with 50 different questions. All questions have a 
-                    mathematical basis which means that they are not trick questions.
+                    mathematical and logical basis which means that they are not tricky questions.
                 </p>
                 <p>
-                    When completing questions, you will earn one point for each. Once you feel you can't go 
-                    ahead because you cannot figure out the answer, simply click on "I give up" button right 
-                    above the question (top right corner of the question card). You'll ask to fill out a form 
-                    but it is optional. Data you entered in the form will use to rank you in the leader board.
+                    You will earn one point for each correctly answered question. Once you feel you can't 
+                    go ahead because you cannot figure out the answer, simply click on "I give up" button 
+                    right above the question (top right corner of the question card) to get your result. 
+                    You will be asked to fill out a form but it is optional. Data you entered in the form 
+                    will be used to rank you in the leader board.
                 </p>
                 <p>
-                    Your rank on the leaderboard is calculated using the amount of the score you earned.
+                    Your rank on the leaderboard is calculated using number of points you earned.
                 </p>
                 <p>
                     If you didn't play yet, go ahead and finish the unfinished quiz. Good Luck!!! 
