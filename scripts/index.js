@@ -147,6 +147,10 @@ function changeLanguage(requestedLang){
     load_content(q_ctx)
 }
 
+function toggleLanguage(){
+    changeLanguage((language === 'en') ? 'si' : 'en')
+}
+
 function load_content(data){
     q_ctx = data;
 
