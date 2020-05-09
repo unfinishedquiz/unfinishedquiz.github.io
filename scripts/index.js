@@ -252,7 +252,7 @@ function loadProgress(){
     let progress = {
         level: progress_object.level - 1,
         answer: progress_object.previous_answer,
-        language: progress_object.language;
+        language: progress_object.language
     };
 
     progress_str = JSON.stringify(progress);
