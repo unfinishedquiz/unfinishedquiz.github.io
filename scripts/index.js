@@ -256,7 +256,8 @@ function loadProgress(){
     };
 
     progress_str = JSON.stringify(progress);
-
+    q_no = progress_object.level;
+    
     $.post(parent_url_quiz, {q_context:progress_str}, (data) => load_content(data));
     return true;
 }
