@@ -252,11 +252,11 @@ function loadProgress(){
     let progress = {
         level: progress_object.level - 1,
         answer: progress_object.previous_answer,
-        language: 'en'
+        language: progress_object.language;
     };
 
     progress_str = JSON.stringify(progress);
-    q_no = progress_object.level;
+    language = progress_object.language;
     
     $.post(parent_url_quiz, {q_context:progress_str}, (data) => load_content(data));
     return true;
