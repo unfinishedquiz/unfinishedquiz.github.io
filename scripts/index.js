@@ -203,7 +203,7 @@ function correct_answer(data){
 
 function saveProgress(){
     let ctx = {
-        level: q_ctx.level - 1, 
+        level: q_ctx.level, 
         answer: previous_answer,
         language: language
     };
