@@ -1,0 +1,77 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">      
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script type="text/javascript" src="scripts/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="scripts/anime.min.js"></script>
+        <script type="text/javascript" src="scripts/loading.js"></script>
+        <script type="text/javascript" src="scripts/mob-menu.js"></script>
+        <script type="text/javascript" src="scripts/cookienotice.js"></script>
+        <link rel="stylesheet" href="styles/css/header-footer.css">
+        <link rel="stylesheet" href="styles/css/index.css">
+        <link rel="stylesheet" href="styles/css/itemlab.css">
+        <link rel="stylesheet" href="styles/css/loading.css">
+        <link rel="stylesheet" href="styles/css/cookie.css">
+        <style>
+            .building-notice-area{
+                height: 100vh;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .building-notice{
+                font-size: 2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-logo">
+                <span class="header-logo-mobile">UQ</span>
+                <span class="header-logo-desktop">UnfinishedQuiz</span>
+            </div>
+            <div class="header-nav">
+                <a href="#" id="menu-questions">Questions</a>
+                <a href="#" id="menu-leaderboard">Leaderboard</a>
+                <a href="about.htm" id="menu-about">About</a>
+                <a href="#" id="menu-language" onclick="toggleLanguage()">Language</a>
+            </div>
+            <div class="hamburger-mobile" onclick="mobilemenu()"></div>
+        </div>
+        
+        <div class="building-notice-area">
+            <div class="building-notice">
+                <img src="https://unfinishedquiz.000webhostapp.com/res/cogwheel.svg" width="200px">
+                This section is still building...
+            </div>
+            
+        </div>
+        <div class="footer">
+            <div class="footer-logo">
+                <img src="Logo/Logo.1-BlackTrans.png">
+                <div class="divider"></div>
+                <div class="logo-typed">
+                    Unfinished<br>Quiz
+                </div>
+            </div>
+
+            <div class="footer-authors">
+                <b>Project developed by,</b><br/><br/>
+                Viduranga Landers <br/>
+                Adeepa Gunathilake <br/>
+                Nimesh Chandula
+            </div>
+        </div>
+        <div class="cookie-notice">
+            We use cookies to save your progress. 
+            <a href="#" class="close" onclick="closeCookieNotice()">Okay, Close.</a>
+        </div>
+    </body>
+</html>
