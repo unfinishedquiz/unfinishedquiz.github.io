@@ -39,8 +39,7 @@ $(document).ready(() => {
 })
 
 function giveup(){
-    saveProgress();
-
+    //saveProgress();
     $('.q-card').css('min-height', '0')
     $('.q-card').animate({height: 0, padding: '0 auto'}, 700)
     $('.q-card').animate({width: 0}, 300)
