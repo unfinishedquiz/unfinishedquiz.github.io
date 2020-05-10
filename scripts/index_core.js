@@ -5,7 +5,7 @@ function saveCookie(name, value, expire){
     let exp = 'expires=' + exp_date.toUTCString();
     let path = 'path=/';
 
-    document.cookie = name + '=' + escape(value) + ';' + exp + ';' + path;
+    document.cookie = name + '=' + escape(value) + ';' + 'SameSite=Lax;' + exp + ';' + path;
 }
 
 function removeCookie(name, path = '/'){
