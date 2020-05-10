@@ -250,7 +250,7 @@ function loadProgress(){
 
     let progress_object = JSON.parse(progress_str);
     let progress = {
-        level: progress_object.level - 1,
+        level: progress_object.level,
         answer: progress_object.previous_answer,
         language: progress_object.language
     };
