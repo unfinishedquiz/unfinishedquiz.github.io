@@ -138,8 +138,8 @@ function next(){
     )
 
     previous_answer = answer
+    show_loading();
     saveProgress();
-    show_loading()
 }
 
 function changeLanguage(requestedLang){
