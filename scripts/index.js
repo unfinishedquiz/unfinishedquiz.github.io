@@ -138,7 +138,7 @@ function next(){
     )
 
     previous_answer = answer
-
+    saveProgress();
     show_loading()
 }
 
