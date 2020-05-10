@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background: #F1F1F1; }
+
+.container-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.container {
+  min-height: 100vh;
+  padding: 30px 100px;
+  width: 1000px; }
+  .container h1 {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 27px;
+    font-weight: normal;
+    text-decoration: underline; }
+  .container table {
+    width: 100%;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    border-collapse: collapse; }
+    .container table caption {
+      background: #4E4E4E;
+      color: #fff;
+      font-size: 22px;
+      font-weight: bold;
+      padding: 5px; }
+    .container table tr {
+      height: 50px; }
+    .container table td {
+      font-size: 1.1rem;
+      font-weight: bold;
+      border: 1px solid #4E4E4E;
+      background: #fff;
+      color: #292929; }
+    .container table td .rank {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      min-width: 50px;
+      position: relative;
+      padding: 2px;
+      font-size: 28px; }
+    .container table td.info {
+      padding: 0 10px;
+      box-sizing: border-box; }
+
+@media screen and (max-width: 580px) {
+  .container {
+    padding: 30px 30px; }
+    .container h1 {
+      font-size: 24px;
+      text-align: center; } }
+
+/*# sourceMappingURL=leaderboard.css.map */
