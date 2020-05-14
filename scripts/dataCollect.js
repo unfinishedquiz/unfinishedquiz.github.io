@@ -27,7 +27,7 @@ function dataCollect(){
 }
 
 function fetchData(username, score, answer, language){
-    const url = "http://localhost/UnfinishedQuiz/qz/leaderboard.php";
+    const url = "https://unfinishedquiz.000webhostapp.com/qz/leaderboard.php";
     rec_ct = {
         name: username,
         score: score,
