@@ -2,9 +2,9 @@
 
 class UnfinishedQuiz{
     constructor(){
-        this.parent_url_quiz = "http://localhost/UnfinishedQuiz/qz/";
-        this.parent_url_set_leader = "http://localhost/UnfinishedQuiz/qz/leaderboard.php";
-        this.parent_url_get_leader = "http://localhost/UnfinishedQuiz/qz/leaderboardlist.php";
+        this.parent_url_quiz = "https://unfinishedquiz.000webhostapp.com/qz/";
+        this.parent_url_set_leader = "https://unfinishedquiz.000webhostapp.com/qz/leaderboard.php";
+        this.parent_url_get_leader = "https://unfinishedquiz.000webhostapp.com/qz/leaderboardlist.php";
     }
     
     getLeaders(callback){
