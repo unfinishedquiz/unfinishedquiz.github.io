@@ -252,6 +252,7 @@ function loadProgress(){
 
     progress_str = JSON.stringify(progress);
     language = progress_object.language;
+    previous_answer = progress_object.previous_answer;
     
     $.post(parent_url_quiz, {q_context:progress_str}, (data) => load_content(data));
     return true;
