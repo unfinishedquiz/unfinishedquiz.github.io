@@ -22,6 +22,9 @@ class UnfinishedQuiz{
                 unsorted = false;
                 
                 for(let i = 1; i < data.length; i++){
+                    data[i].score *= 1;
+                    data[i - 1].score *= 1;
+                    
                     if (data[i - 1].score < data[i].score){
                         let swap_temp = data[i - 1];
                         data[i - 1] = data[i];
