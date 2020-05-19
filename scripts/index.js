@@ -169,14 +169,14 @@ function load_content(data){
     $('#answer').focus();
     $('#answer').val("");
 
-    anime({
+    /*anime({
         targets: scrl_amount,
         val: $('.q-card').offset().top - 20,
         update: () =>  window.scrollTo(0, scrl_amount.val),
         easing: 'linear',
         duration: 1500,
         delay: 1000
-    })
+    })*/
 }
 
 function correct_answer(data){
