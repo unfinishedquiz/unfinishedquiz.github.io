@@ -53,7 +53,7 @@ function leaderBoardRecordFailed(code){
     $('.dataCollect').css("align-items", 'center');
     $('.dataCollect').css("justify-content", 'center');
     $('.dataCollect').css("background", '#ff7777');
-    $('.dataCollect').html("<div style='display: flex; flex-direction: columns; text-align: center;'>Your are unlucky<br>Error happend!</div>")
+    $('.dataCollect').html("<div style='display: flex; flex-direction: columns; text-align: center;'>You are unlucky<br>Error happend!</div>")
 }
 
 function leaderBoardRecordSuccess(password){
