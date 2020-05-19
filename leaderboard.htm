@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <script type="text/javascript" src="scripts/jquery-2.2.4.min.js"></script>
-        <script type="text/javascript" src="scripts/anime.min.js"></script>
-        <script type="text/javascript" src="scripts/loading.js"></script>
         <script type="text/javascript" src="scripts/mob-menu.js"></script>
         <script type="text/javascript" src="scripts/cookienotice.js"></script>
+        <script type="text/javascript" src="scripts/uq.js"></script>
+        <script type="text/javascript" src="scripts/leaderboard.js"></script>
         <link rel="stylesheet" href="styles/css/header-footer.css">
         <link rel="stylesheet" href="styles/css/leaderboard.css">
         <link rel="stylesheet" href="styles/css/itemlab.css">
@@ -31,21 +31,14 @@
         <div class="container-wrapper">
             <div class="container">
                 <h1>Leaderboard - A list of smartest people</h1>
-                <table style="margin-top: 50px;">
-                    <caption>Top 3</caption>
-                    <tr>
-                        <td><span class="rank">1</span></td>
-                        <td class="info"><p>Viduranga Landers</p><p>Score : 43</p></td>
-                    </tr>
-                    <tr>
-                        <td><span class="rank">2</span></td>
-                        <td class="info"><p>Nimesh Chandula</p><p>Score : 38</p></td>
-                    </tr>
-                    <tr>
-                        <td><span class="rank">3</span></td>
-                        <td class="info"><p>Nilanga Wijesinghe</p><p>Score : 32</p></td>
-                    </tr>
-                </table>
+                <div id="top3"></div>
+                <div class="quote-wrap">
+                    <div class="quote">
+                        Universal set is larger than any other set.
+                    </div>
+                </div>
+                <div id="all-list">
+                </div>
             </div>
         </div>
         <div class="footer">
