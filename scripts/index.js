@@ -159,10 +159,10 @@ function load_content(data){
     $('.q-content').html(q_content);
 
     if(data.image){
-        $('.q-graphic').html('<img src=' + parent_url_res + q_no + '.png>');
+        $('.q-graphic').html('<img src=' + parent_url_res + q_no + '.jpg>');
         $('.q-img-utilize').css('opacity', '1');
     } else {
-        $('.q-graphic').html('<img src=' + parent_url_res +'empyt-img.png>');
+        $('.q-graphic').html('<img src=' + parent_url_res +'empyt-img.jpg>');
         $('.q-img-utilize').css('opacity', '0');
     }
     
