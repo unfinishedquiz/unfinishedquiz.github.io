@@ -162,7 +162,7 @@ function load_content(data){
         $('.q-graphic').html('<img src=' + parent_url_res + q_no + '.jpg>');
         $('.q-img-utilize').css('opacity', '1');
     } else {
-        $('.q-graphic').html('<img src=' + parent_url_res +'empyt-img.jpg>');
+        $('.q-graphic').html('<img src=' + parent_url_res +'empty-img.jpg>');
         $('.q-img-utilize').css('opacity', '0');
     }
     
